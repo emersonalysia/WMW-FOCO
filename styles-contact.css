@@ -61,7 +61,7 @@ html, body {
   padding: 0;
   margin: 0;
 
-	background-image: url("images/waves-bg.jpg");
+	background-image: url("images/waves-bg.jpg"); alt: This picture is of a beach. There is yellow sand, and a beautiful turquoise colored ocean.;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -73,7 +73,7 @@ html, body {
     width: 800px;
 	padding: 1%;
     margin: 100px auto;
- 	background: turquoise; /*this uses opacity of 75% for the background color*/
+ 	background: white; /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border:none;
 }
@@ -86,20 +86,21 @@ html, body {
 }
 
 h1 {
-	font-family: fino-sans, sans-serif;;
-	font-size: 2.5em;
+	font-family: bodega-sans, sans-serif;
+	font-size: 3em;
     margin: 0px auto 10px auto;
     color: black;
 }
 
 h2 {
 
-	font-family: look-script, serif;	
+	font-family: bodega-sans, sans-serif;
 	font-size: 1.5em;
     line-height: 2;
     color:black;
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+	margin: 0px auto 25px auto;''
+	background: blue;
 }
 
 p {
@@ -113,10 +114,11 @@ nav {
 	font-size: 1.2em;
 	width: 400px
 	margin: 0 auto;
-	border: dashed turquoise;
+	border style: solid;
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
+
 }
 
 nav li{
@@ -136,5 +138,5 @@ nav li{
 
 a:hover {
 	color:white;
-	background: pink;
+	background: palevioletred;
 }
