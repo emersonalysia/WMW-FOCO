@@ -70,34 +70,34 @@ html, body {
 }
 
 .center {
-    width: 600px;
-	padding: 2%;
+    width: 800px;
+	padding: 1%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: turquoise; /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border:none;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
-	text-align: center;
+    margin-bottom: 50px;
+	border: solid;
+	text-align: left;
 }
 
 h1 {
-	font-family: look-script, serif;
-	font-size: 2em;
+	font-family: fino-sans, sans-serif;;
+	font-size: 2.5em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: black;
 }
 
 h2 {
 
 	font-family: look-script, serif;	
 	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
+    line-height: 2;
+    color:black;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -130,12 +130,12 @@ nav li{
    } 
 
    a { 
-	   color: #444;
-	   text-decoration: none;
+	   color:white;
+	   text-decoration: dotted;
 	   font-weight: bold;
    }
 
 a:hover {
-	color: black;
+	color:white;
 	background: pink;
 }
